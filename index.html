@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <!-- From validation -->
+    <form action="">
+        <label for="sdfsdfsdf"></label>
+        <label for="email">Email</label><br>
+        <input type="email" name="" id="email" required><br>
+        <label for="password">password</label><br>
+        <input type="text" name="" id="password" minlength="8" pattern="[A-Za-z0-9_@#%]+" required><br>
+        <input type="text" id="username" maxlength="12" minlength="6" required readonly placeholder="Maria"><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" name="" id="Number" pattern="[0-9-+]+" maxlength="10" required><br>
+        <label for="age">Age</label><br>
+        <input type="number" max="40" min="15" required><br>
+        <label for="city">City</label><br>
+        <select name="" id="">
+            <option value="">Select your city</option>
+            <option value="k">Kabul</option>
+            <option value="k">Herat</option>
+            <option value="G">Ghazni</option>
+            <option value="F">Faizabad</option>
+        </select><br>
+        <label for="">Status</label><br>
+        <input type="radio" value="Single" name="status"><br>
+        <input type="radio" value="Maried" name="status"><br>
+        <label for="">Write a short bio</label><br>
+        <textarea name="" id="" style="resize: none;" wrap="soft" readonly disabled></textarea><br>
+        <input type="submit" disabled>
+
+    </form>
+</body>
+</html>
