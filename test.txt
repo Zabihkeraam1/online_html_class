@@ -2,3 +2,7 @@
 - git remote add origin https://sdfsdfsdfsdfs
 - git add .
 - git commit -m "intitail commit"
+- git branch -M master
+- git push -u origin 
+- git switch -c 
+- git branch
